@@ -16,6 +16,37 @@
 		C976E54729F592520052ACCC /* InterbankPruebaTecnicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E54629F592520052ACCC /* InterbankPruebaTecnicaTests.swift */; };
 		C976E55129F592520052ACCC /* InterbankPruebaTecnicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E55029F592520052ACCC /* InterbankPruebaTecnicaUITests.swift */; };
 		C976E55329F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */; };
+		C976E56B29F593930052ACCC /* HomeDataContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56029F593930052ACCC /* HomeDataContract.swift */; };
+		C976E56C29F593930052ACCC /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56129F593930052ACCC /* HomeFactory.swift */; };
+		C976E56D29F593930052ACCC /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56229F593930052ACCC /* HomeContract.swift */; };
+		C976E56E29F593930052ACCC /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56329F593930052ACCC /* HomePresenter.swift */; };
+		C976E56F29F593930052ACCC /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56429F593930052ACCC /* HomeRouter.swift */; };
+		C976E57029F593930052ACCC /* HomeLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56529F593930052ACCC /* HomeLocalDataSource.swift */; };
+		C976E57129F593930052ACCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56629F593930052ACCC /* HomeViewController.swift */; };
+		C976E57229F593930052ACCC /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56729F593930052ACCC /* HomeRepository.swift */; };
+		C976E57329F593930052ACCC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56829F593930052ACCC /* HomeInteractor.swift */; };
+		C976E57429F593930052ACCC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C976E56929F593930052ACCC /* HomeViewController.xib */; };
+		C976E57529F593930052ACCC /* HomeCloudDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E56A29F593930052ACCC /* HomeCloudDataSource.swift */; };
+		C976E58429F593DF0052ACCC /* DetailDataContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57929F593DF0052ACCC /* DetailDataContract.swift */; };
+		C976E58529F593DF0052ACCC /* DetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57A29F593DF0052ACCC /* DetailFactory.swift */; };
+		C976E58629F593DF0052ACCC /* DetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57B29F593DF0052ACCC /* DetailContract.swift */; };
+		C976E58729F593DF0052ACCC /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57C29F593DF0052ACCC /* DetailPresenter.swift */; };
+		C976E58829F593DF0052ACCC /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57D29F593DF0052ACCC /* DetailRouter.swift */; };
+		C976E58929F593DF0052ACCC /* DetailLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57E29F593DF0052ACCC /* DetailLocalDataSource.swift */; };
+		C976E58A29F593DF0052ACCC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E57F29F593DF0052ACCC /* DetailViewController.swift */; };
+		C976E58B29F593DF0052ACCC /* DetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E58029F593DF0052ACCC /* DetailRepository.swift */; };
+		C976E58C29F593DF0052ACCC /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E58129F593DF0052ACCC /* DetailInteractor.swift */; };
+		C976E58D29F593DF0052ACCC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C976E58229F593DF0052ACCC /* DetailViewController.xib */; };
+		C976E58E29F593DF0052ACCC /* DetailCloudDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E58329F593DF0052ACCC /* DetailCloudDataSource.swift */; };
+		C976E59129F597850052ACCC /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C976E59029F597850052ACCC /* JGProgressHUD */; settings = {ATTRIBUTES = (Required, ); }; };
+		C976E59429F597A60052ACCC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C976E59329F597A60052ACCC /* Alamofire */; };
+		C976E59929F59BE30052ACCC /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E59729F59BE30052ACCC /* HomeCell.swift */; };
+		C976E59A29F59BE30052ACCC /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C976E59829F59BE30052ACCC /* HomeCell.xib */; };
+		C976E59C29F5B2210052ACCC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E59B29F5B2210052ACCC /* Response.swift */; };
+		C981662929F5CB0B00AFB246 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C981662829F5CB0B00AFB246 /* JGProgressHUD */; };
+		C981662B29F5CBA000AFB246 /* FactoryViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981662A29F5CBA000AFB246 /* FactoryViewTest.swift */; };
+		C981662D29F5CC6100AFB246 /* MookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981662C29F5CC6100AFB246 /* MookData.swift */; };
+		C981662F29F5CD1E00AFB246 /* InteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981662E29F5CD1E00AFB246 /* InteractorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +80,34 @@
 		C976E54C29F592520052ACCC /* InterbankPruebaTecnicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterbankPruebaTecnicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C976E55029F592520052ACCC /* InterbankPruebaTecnicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterbankPruebaTecnicaUITests.swift; sourceTree = "<group>"; };
 		C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterbankPruebaTecnicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C976E56029F593930052ACCC /* HomeDataContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataContract.swift; sourceTree = "<group>"; };
+		C976E56129F593930052ACCC /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		C976E56229F593930052ACCC /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		C976E56329F593930052ACCC /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C976E56429F593930052ACCC /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C976E56529F593930052ACCC /* HomeLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataSource.swift; sourceTree = "<group>"; };
+		C976E56629F593930052ACCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C976E56729F593930052ACCC /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		C976E56829F593930052ACCC /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C976E56929F593930052ACCC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C976E56A29F593930052ACCC /* HomeCloudDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCloudDataSource.swift; sourceTree = "<group>"; };
+		C976E57929F593DF0052ACCC /* DetailDataContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDataContract.swift; sourceTree = "<group>"; };
+		C976E57A29F593DF0052ACCC /* DetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFactory.swift; sourceTree = "<group>"; };
+		C976E57B29F593DF0052ACCC /* DetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContract.swift; sourceTree = "<group>"; };
+		C976E57C29F593DF0052ACCC /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		C976E57D29F593DF0052ACCC /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		C976E57E29F593DF0052ACCC /* DetailLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLocalDataSource.swift; sourceTree = "<group>"; };
+		C976E57F29F593DF0052ACCC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C976E58029F593DF0052ACCC /* DetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepository.swift; sourceTree = "<group>"; };
+		C976E58129F593DF0052ACCC /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		C976E58229F593DF0052ACCC /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		C976E58329F593DF0052ACCC /* DetailCloudDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCloudDataSource.swift; sourceTree = "<group>"; };
+		C976E59729F59BE30052ACCC /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		C976E59829F59BE30052ACCC /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		C976E59B29F5B2210052ACCC /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C981662A29F5CBA000AFB246 /* FactoryViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewTest.swift; sourceTree = "<group>"; };
+		C981662C29F5CC6100AFB246 /* MookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MookData.swift; sourceTree = "<group>"; };
+		C981662E29F5CD1E00AFB246 /* InteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C976E59129F597850052ACCC /* JGProgressHUD in Frameworks */,
+				C976E59429F597A60052ACCC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C981662929F5CB0B00AFB246 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +145,7 @@
 				C976E54529F592520052ACCC /* InterbankPruebaTecnicaTests */,
 				C976E54F29F592520052ACCC /* InterbankPruebaTecnicaUITests */,
 				C976E52D29F5924C0052ACCC /* Products */,
+				C981662729F5CB0B00AFB246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +162,7 @@
 		C976E52E29F5924C0052ACCC /* InterbankPruebaTecnica */ = {
 			isa = PBXGroup;
 			children = (
+				C976E55F29F5933E0052ACCC /* VIPER */,
 				C976E52F29F5924C0052ACCC /* AppDelegate.swift */,
 				C976E53129F5924C0052ACCC /* SceneDelegate.swift */,
 				C976E53329F5924C0052ACCC /* ViewController.swift */,
@@ -114,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				C976E54629F592520052ACCC /* InterbankPruebaTecnicaTests.swift */,
+				C981662A29F5CBA000AFB246 /* FactoryViewTest.swift */,
+				C981662C29F5CC6100AFB246 /* MookData.swift */,
+				C981662E29F5CD1E00AFB246 /* InteractorTest.swift */,
 			);
 			path = InterbankPruebaTecnicaTests;
 			sourceTree = "<group>";
@@ -125,6 +192,77 @@
 				C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */,
 			);
 			path = InterbankPruebaTecnicaUITests;
+			sourceTree = "<group>";
+		};
+		C976E55F29F5933E0052ACCC /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				C976E57729F593B70052ACCC /* Detail */,
+				C976E57629F5939D0052ACCC /* Home */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		C976E57629F5939D0052ACCC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C976E59629F59BB50052ACCC /* Cells */,
+				C976E59529F59B1D0052ACCC /* DAO */,
+				C976E56029F593930052ACCC /* HomeDataContract.swift */,
+				C976E56129F593930052ACCC /* HomeFactory.swift */,
+				C976E56229F593930052ACCC /* HomeContract.swift */,
+				C976E56329F593930052ACCC /* HomePresenter.swift */,
+				C976E56429F593930052ACCC /* HomeRouter.swift */,
+				C976E56529F593930052ACCC /* HomeLocalDataSource.swift */,
+				C976E56629F593930052ACCC /* HomeViewController.swift */,
+				C976E56729F593930052ACCC /* HomeRepository.swift */,
+				C976E56829F593930052ACCC /* HomeInteractor.swift */,
+				C976E56929F593930052ACCC /* HomeViewController.xib */,
+				C976E56A29F593930052ACCC /* HomeCloudDataSource.swift */,
+				C976E59B29F5B2210052ACCC /* Response.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C976E57729F593B70052ACCC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C976E57929F593DF0052ACCC /* DetailDataContract.swift */,
+				C976E57A29F593DF0052ACCC /* DetailFactory.swift */,
+				C976E57B29F593DF0052ACCC /* DetailContract.swift */,
+				C976E57C29F593DF0052ACCC /* DetailPresenter.swift */,
+				C976E57D29F593DF0052ACCC /* DetailRouter.swift */,
+				C976E57E29F593DF0052ACCC /* DetailLocalDataSource.swift */,
+				C976E57F29F593DF0052ACCC /* DetailViewController.swift */,
+				C976E58029F593DF0052ACCC /* DetailRepository.swift */,
+				C976E58129F593DF0052ACCC /* DetailInteractor.swift */,
+				C976E58229F593DF0052ACCC /* DetailViewController.xib */,
+				C976E58329F593DF0052ACCC /* DetailCloudDataSource.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C976E59529F59B1D0052ACCC /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		C976E59629F59BB50052ACCC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C976E59729F59BE30052ACCC /* HomeCell.swift */,
+				C976E59829F59BE30052ACCC /* HomeCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C981662729F5CB0B00AFB246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +281,10 @@
 			dependencies = (
 			);
 			name = InterbankPruebaTecnica;
+			packageProductDependencies = (
+				C976E59029F597850052ACCC /* JGProgressHUD */,
+				C976E59329F597A60052ACCC /* Alamofire */,
+			);
 			productName = InterbankPruebaTecnica;
 			productReference = C976E52C29F5924C0052ACCC /* InterbankPruebaTecnica.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +303,9 @@
 				C976E54429F592520052ACCC /* PBXTargetDependency */,
 			);
 			name = InterbankPruebaTecnicaTests;
+			packageProductDependencies = (
+				C981662829F5CB0B00AFB246 /* JGProgressHUD */,
+			);
 			productName = InterbankPruebaTecnicaTests;
 			productReference = C976E54229F592520052ACCC /* InterbankPruebaTecnicaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +360,10 @@
 				Base,
 			);
 			mainGroup = C976E52329F5924C0052ACCC;
+			packageReferences = (
+				C976E58F29F597850052ACCC /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				C976E59229F597A60052ACCC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C976E52D29F5924C0052ACCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +382,10 @@
 			files = (
 				C976E53C29F592510052ACCC /* LaunchScreen.storyboard in Resources */,
 				C976E53929F592510052ACCC /* Assets.xcassets in Resources */,
+				C976E58D29F593DF0052ACCC /* DetailViewController.xib in Resources */,
 				C976E53729F5924C0052ACCC /* Main.storyboard in Resources */,
+				C976E59A29F59BE30052ACCC /* HomeCell.xib in Resources */,
+				C976E57429F593930052ACCC /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +410,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C976E58629F593DF0052ACCC /* DetailContract.swift in Sources */,
+				C976E58C29F593DF0052ACCC /* DetailInteractor.swift in Sources */,
+				C976E57029F593930052ACCC /* HomeLocalDataSource.swift in Sources */,
+				C976E56E29F593930052ACCC /* HomePresenter.swift in Sources */,
+				C976E56D29F593930052ACCC /* HomeContract.swift in Sources */,
+				C976E57329F593930052ACCC /* HomeInteractor.swift in Sources */,
 				C976E53429F5924C0052ACCC /* ViewController.swift in Sources */,
+				C976E56C29F593930052ACCC /* HomeFactory.swift in Sources */,
+				C976E58A29F593DF0052ACCC /* DetailViewController.swift in Sources */,
+				C976E58929F593DF0052ACCC /* DetailLocalDataSource.swift in Sources */,
+				C976E59929F59BE30052ACCC /* HomeCell.swift in Sources */,
+				C976E58E29F593DF0052ACCC /* DetailCloudDataSource.swift in Sources */,
+				C976E58B29F593DF0052ACCC /* DetailRepository.swift in Sources */,
+				C976E57129F593930052ACCC /* HomeViewController.swift in Sources */,
 				C976E53029F5924C0052ACCC /* AppDelegate.swift in Sources */,
+				C976E56F29F593930052ACCC /* HomeRouter.swift in Sources */,
+				C976E56B29F593930052ACCC /* HomeDataContract.swift in Sources */,
+				C976E58529F593DF0052ACCC /* DetailFactory.swift in Sources */,
 				C976E53229F5924C0052ACCC /* SceneDelegate.swift in Sources */,
+				C976E57529F593930052ACCC /* HomeCloudDataSource.swift in Sources */,
+				C976E58429F593DF0052ACCC /* DetailDataContract.swift in Sources */,
+				C976E58829F593DF0052ACCC /* DetailRouter.swift in Sources */,
+				C976E57229F593930052ACCC /* HomeRepository.swift in Sources */,
+				C976E58729F593DF0052ACCC /* DetailPresenter.swift in Sources */,
+				C976E59C29F5B2210052ACCC /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +443,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C976E54729F592520052ACCC /* InterbankPruebaTecnicaTests.swift in Sources */,
+				C981662D29F5CC6100AFB246 /* MookData.swift in Sources */,
+				C981662F29F5CD1E00AFB246 /* InteractorTest.swift in Sources */,
+				C981662B29F5CBA000AFB246 /* FactoryViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +779,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C976E58F29F597850052ACCC /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C976E59229F597A60052ACCC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C976E59029F597850052ACCC /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C976E58F29F597850052ACCC /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		C976E59329F597A60052ACCC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C976E59229F597A60052ACCC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C981662829F5CB0B00AFB246 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C976E58F29F597850052ACCC /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C976E52429F5924C0052ACCC /* Project object */;
 }
