@@ -5,26 +5,8 @@
 //  Created by Oswaldo Escobar on 23/04/23.
 //  Copyright (c) 2023 Oswaldo FIF. All rights reserved.
 
-import Foundation
-import JGProgressHUD
-
-struct StructMoneda : Codable {
-    var data: [itemsMoneda]
-}
-
-public struct itemsMoneda : Codable {
-    var id: Int
-    var title: String
-    var body: String
-}
-
-class sMoneda {
-    var codigo: String = ""
-    var tittle: String = ""
-    var body: String = ""}
-
-
 import UIKit
+import JGProgressHUD
 
 // MARK: - HomeViewController
 class HomeViewController: UIViewController {
