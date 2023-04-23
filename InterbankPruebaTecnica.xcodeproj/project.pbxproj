@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C976E53029F5924C0052ACCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E52F29F5924C0052ACCC /* AppDelegate.swift */; };
+		C976E53229F5924C0052ACCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E53129F5924C0052ACCC /* SceneDelegate.swift */; };
+		C976E53429F5924C0052ACCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E53329F5924C0052ACCC /* ViewController.swift */; };
+		C976E53729F5924C0052ACCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C976E53529F5924C0052ACCC /* Main.storyboard */; };
+		C976E53929F592510052ACCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C976E53829F592510052ACCC /* Assets.xcassets */; };
+		C976E53C29F592510052ACCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C976E53A29F592510052ACCC /* LaunchScreen.storyboard */; };
+		C976E54729F592520052ACCC /* InterbankPruebaTecnicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E54629F592520052ACCC /* InterbankPruebaTecnicaTests.swift */; };
+		C976E55129F592520052ACCC /* InterbankPruebaTecnicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E55029F592520052ACCC /* InterbankPruebaTecnicaUITests.swift */; };
+		C976E55329F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C976E54329F592520052ACCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C976E52429F5924C0052ACCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C976E52B29F5924C0052ACCC;
+			remoteInfo = InterbankPruebaTecnica;
+		};
+		C976E54D29F592520052ACCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C976E52429F5924C0052ACCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C976E52B29F5924C0052ACCC;
+			remoteInfo = InterbankPruebaTecnica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C976E52C29F5924C0052ACCC /* InterbankPruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterbankPruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C976E52F29F5924C0052ACCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C976E53129F5924C0052ACCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C976E53329F5924C0052ACCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C976E53629F5924C0052ACCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C976E53829F592510052ACCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C976E53B29F592510052ACCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C976E53D29F592510052ACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C976E54229F592520052ACCC /* InterbankPruebaTecnicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterbankPruebaTecnicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C976E54629F592520052ACCC /* InterbankPruebaTecnicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterbankPruebaTecnicaTests.swift; sourceTree = "<group>"; };
+		C976E54C29F592520052ACCC /* InterbankPruebaTecnicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterbankPruebaTecnicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C976E55029F592520052ACCC /* InterbankPruebaTecnicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterbankPruebaTecnicaUITests.swift; sourceTree = "<group>"; };
+		C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterbankPruebaTecnicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C976E52929F5924C0052ACCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E53F29F592520052ACCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E54929F592520052ACCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C976E52329F5924C0052ACCC = {
+			isa = PBXGroup;
+			children = (
+				C976E52E29F5924C0052ACCC /* InterbankPruebaTecnica */,
+				C976E54529F592520052ACCC /* InterbankPruebaTecnicaTests */,
+				C976E54F29F592520052ACCC /* InterbankPruebaTecnicaUITests */,
+				C976E52D29F5924C0052ACCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C976E52D29F5924C0052ACCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C976E52C29F5924C0052ACCC /* InterbankPruebaTecnica.app */,
+				C976E54229F592520052ACCC /* InterbankPruebaTecnicaTests.xctest */,
+				C976E54C29F592520052ACCC /* InterbankPruebaTecnicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C976E52E29F5924C0052ACCC /* InterbankPruebaTecnica */ = {
+			isa = PBXGroup;
+			children = (
+				C976E52F29F5924C0052ACCC /* AppDelegate.swift */,
+				C976E53129F5924C0052ACCC /* SceneDelegate.swift */,
+				C976E53329F5924C0052ACCC /* ViewController.swift */,
+				C976E53529F5924C0052ACCC /* Main.storyboard */,
+				C976E53829F592510052ACCC /* Assets.xcassets */,
+				C976E53A29F592510052ACCC /* LaunchScreen.storyboard */,
+				C976E53D29F592510052ACCC /* Info.plist */,
+			);
+			path = InterbankPruebaTecnica;
+			sourceTree = "<group>";
+		};
+		C976E54529F592520052ACCC /* InterbankPruebaTecnicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C976E54629F592520052ACCC /* InterbankPruebaTecnicaTests.swift */,
+			);
+			path = InterbankPruebaTecnicaTests;
+			sourceTree = "<group>";
+		};
+		C976E54F29F592520052ACCC /* InterbankPruebaTecnicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C976E55029F592520052ACCC /* InterbankPruebaTecnicaUITests.swift */,
+				C976E55229F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift */,
+			);
+			path = InterbankPruebaTecnicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C976E52B29F5924C0052ACCC /* InterbankPruebaTecnica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C976E55629F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnica" */;
+			buildPhases = (
+				C976E52829F5924C0052ACCC /* Sources */,
+				C976E52929F5924C0052ACCC /* Frameworks */,
+				C976E52A29F5924C0052ACCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterbankPruebaTecnica;
+			productName = InterbankPruebaTecnica;
+			productReference = C976E52C29F5924C0052ACCC /* InterbankPruebaTecnica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C976E54129F592520052ACCC /* InterbankPruebaTecnicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C976E55929F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnicaTests" */;
+			buildPhases = (
+				C976E53E29F592520052ACCC /* Sources */,
+				C976E53F29F592520052ACCC /* Frameworks */,
+				C976E54029F592520052ACCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C976E54429F592520052ACCC /* PBXTargetDependency */,
+			);
+			name = InterbankPruebaTecnicaTests;
+			productName = InterbankPruebaTecnicaTests;
+			productReference = C976E54229F592520052ACCC /* InterbankPruebaTecnicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C976E54B29F592520052ACCC /* InterbankPruebaTecnicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C976E55C29F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnicaUITests" */;
+			buildPhases = (
+				C976E54829F592520052ACCC /* Sources */,
+				C976E54929F592520052ACCC /* Frameworks */,
+				C976E54A29F592520052ACCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C976E54E29F592520052ACCC /* PBXTargetDependency */,
+			);
+			name = InterbankPruebaTecnicaUITests;
+			productName = InterbankPruebaTecnicaUITests;
+			productReference = C976E54C29F592520052ACCC /* InterbankPruebaTecnicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C976E52429F5924C0052ACCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C976E52B29F5924C0052ACCC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C976E54129F592520052ACCC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C976E52B29F5924C0052ACCC;
+					};
+					C976E54B29F592520052ACCC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C976E52B29F5924C0052ACCC;
+					};
+				};
+			};
+			buildConfigurationList = C976E52729F5924C0052ACCC /* Build configuration list for PBXProject "InterbankPruebaTecnica" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C976E52329F5924C0052ACCC;
+			productRefGroup = C976E52D29F5924C0052ACCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C976E52B29F5924C0052ACCC /* InterbankPruebaTecnica */,
+				C976E54129F592520052ACCC /* InterbankPruebaTecnicaTests */,
+				C976E54B29F592520052ACCC /* InterbankPruebaTecnicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C976E52A29F5924C0052ACCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C976E53C29F592510052ACCC /* LaunchScreen.storyboard in Resources */,
+				C976E53929F592510052ACCC /* Assets.xcassets in Resources */,
+				C976E53729F5924C0052ACCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E54029F592520052ACCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E54A29F592520052ACCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C976E52829F5924C0052ACCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C976E53429F5924C0052ACCC /* ViewController.swift in Sources */,
+				C976E53029F5924C0052ACCC /* AppDelegate.swift in Sources */,
+				C976E53229F5924C0052ACCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E53E29F592520052ACCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C976E54729F592520052ACCC /* InterbankPruebaTecnicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C976E54829F592520052ACCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C976E55329F592520052ACCC /* InterbankPruebaTecnicaUITestsLaunchTests.swift in Sources */,
+				C976E55129F592520052ACCC /* InterbankPruebaTecnicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C976E54429F592520052ACCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C976E52B29F5924C0052ACCC /* InterbankPruebaTecnica */;
+			targetProxy = C976E54329F592520052ACCC /* PBXContainerItemProxy */;
+		};
+		C976E54E29F592520052ACCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C976E52B29F5924C0052ACCC /* InterbankPruebaTecnica */;
+			targetProxy = C976E54D29F592520052ACCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C976E53529F5924C0052ACCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C976E53629F5924C0052ACCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C976E53A29F592510052ACCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C976E53B29F592510052ACCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C976E55429F592520052ACCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C976E55529F592520052ACCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C976E55729F592520052ACCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InterbankPruebaTecnica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C976E55829F592520052ACCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InterbankPruebaTecnica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C976E55A29F592520052ACCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterbankPruebaTecnica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InterbankPruebaTecnica";
+			};
+			name = Debug;
+		};
+		C976E55B29F592520052ACCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterbankPruebaTecnica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InterbankPruebaTecnica";
+			};
+			name = Release;
+		};
+		C976E55D29F592520052ACCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InterbankPruebaTecnica;
+			};
+			name = Debug;
+		};
+		C976E55E29F592520052ACCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ZD458SWM3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamOEH.InterbankPruebaTecnicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InterbankPruebaTecnica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C976E52729F5924C0052ACCC /* Build configuration list for PBXProject "InterbankPruebaTecnica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C976E55429F592520052ACCC /* Debug */,
+				C976E55529F592520052ACCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C976E55629F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C976E55729F592520052ACCC /* Debug */,
+				C976E55829F592520052ACCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C976E55929F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C976E55A29F592520052ACCC /* Debug */,
+				C976E55B29F592520052ACCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C976E55C29F592520052ACCC /* Build configuration list for PBXNativeTarget "InterbankPruebaTecnicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C976E55D29F592520052ACCC /* Debug */,
+				C976E55E29F592520052ACCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C976E52429F5924C0052ACCC /* Project object */;
+}
