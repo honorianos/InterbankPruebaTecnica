@@ -64,7 +64,7 @@
                     <constraint firstAttribute="bottom" secondItem="W08-ET-IFy" secondAttribute="bottom" id="Spp-pA-Gqd"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="lblName" destination="hII-30-HAL" id="kRn-PN-RX9"/>
             </connections>

@@ -12,6 +12,7 @@ class HomeCell: UITableViewCell {
     @IBOutlet weak var lblName: UILabel!
     
     func bindData(data: itemsMoneda) {
-        lblName.text = String("\(data.id) - valor: \(String(data.title))")
+        lblName.text = String("\(data.id)  title: \(String(data.title))")
+        lblName.textColor = UIColor.white
     }
 }

@@ -13,6 +13,6 @@ final class HomeRouter: HomeRouterProtocol {
     func goToDetailViewController(viewData: ViewDataDetail) {
         let vc = DetailFactory.initialize()
         vc.viewData = viewData
-        view?.present(vc, animated: true, completion: nil)
+        view?.navigationController?.pushViewController(vc, animated: true)
     }
 }

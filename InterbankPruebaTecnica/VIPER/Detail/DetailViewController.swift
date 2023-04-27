@@ -39,6 +39,9 @@ extension DetailViewController {
         super.viewDidLoad()
         setData()
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.title = "Detalle de item "
+    }
     func setData() {
         code.setTitle(String(viewData?.codigo ?? 0), for: .normal)
         tittle.text = viewData?.tittle

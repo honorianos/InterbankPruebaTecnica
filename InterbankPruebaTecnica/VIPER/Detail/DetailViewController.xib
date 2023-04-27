@@ -54,16 +54,17 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </button>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QCJ-XM-Jk5">
-                                    <rect key="frame" x="30" y="123" width="315" height="98"/>
+                                <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QCJ-XM-Jk5">
+                                    <rect key="frame" x="30" y="123" width="315" height="143"/>
                                     <subviews>
                                         <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Tittle" translatesAutoresizingMaskIntoConstraints="NO" id="tEi-aS-lrI">
                                             <rect key="frame" x="0.0" y="0.0" width="315" height="44"/>
-                                            <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="tintColor" name="Theme"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="44" id="uwq-a4-ZNU"/>
                                             </constraints>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <textInputTraits key="textInputTraits"/>
                                             <userDefinedRuntimeAttributes>
@@ -72,10 +73,15 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </textField>
-                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Body" translatesAutoresizingMaskIntoConstraints="NO" id="qnm-x8-ImX">
-                                            <rect key="frame" x="0.0" y="54" width="315" height="44"/>
-                                            <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Body" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnm-x8-ImX">
+                                            <rect key="frame" x="0.0" y="54" width="315" height="89"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="tintColor" name="Theme"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="89" id="Qwf-dW-cfz"/>
+                                            </constraints>
+                                            <string key="text">12345678901234567891234567891234567823456789012345678901234567890123456789123456789123456782345678901234567890123456789012345678912345678912345678234567890123456789012345678901234567891234567891234567823456789012345678901234567890123456789123456789123456782345678901234567890123456789012345678912345678912345678234567890123456789012345678901234567891234567891234567823456789012345678901234567890123456789123456789123456782345678901234567890</string>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <textInputTraits key="textInputTraits"/>
                                             <userDefinedRuntimeAttributes>
@@ -85,9 +91,12 @@
                                             </userDefinedRuntimeAttributes>
                                         </textField>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="agJ-aj-Gff"/>
+                                    </constraints>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="QCJ-XM-Jk5" firstAttribute="trailing" secondItem="ft1-4V-1YR" secondAttribute="trailing" id="4JB-lV-dGH"/>
                                 <constraint firstItem="QCJ-XM-Jk5" firstAttribute="top" secondItem="ft1-4V-1YR" secondAttribute="bottom" constant="53" id="7C4-qW-hxb"/>
@@ -99,6 +108,7 @@
                             </constraints>
                         </view>
                     </subviews>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="yJE-g2-QvJ" firstAttribute="leading" secondItem="lIg-sI-ELb" secondAttribute="leading" id="77d-mK-uaP"/>
                         <constraint firstAttribute="trailing" secondItem="yJE-g2-QvJ" secondAttribute="trailing" id="DVj-Rf-00K"/>
@@ -109,7 +119,7 @@
                 </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="amp-GH-Rh8"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemTealColor"/>
             <constraints>
                 <constraint firstItem="lIg-sI-ELb" firstAttribute="leading" secondItem="amp-GH-Rh8" secondAttribute="leading" id="OPm-0z-ccs"/>
                 <constraint firstItem="lIg-sI-ELb" firstAttribute="top" secondItem="amp-GH-Rh8" secondAttribute="top" id="SGw-MJ-uj5"/>
@@ -129,11 +139,8 @@
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tertiarySystemFillColor">
-            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

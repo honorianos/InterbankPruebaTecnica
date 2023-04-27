@@ -16,9 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.up.bin.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yzt-Cv-ijj">
-                                <rect key="frame" x="121.66666666666669" y="352.66666666666669" width="150" height="146.99999999999994"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.and.outline" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yzt-Cv-ijj">
+                                <rect key="frame" x="121.66666666666669" y="350.66666666666669" width="150" height="150"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="sqB-Jv-4CP"/>
                                     <constraint firstAttribute="width" constant="150" id="z4L-lD-v6a"/>
@@ -26,7 +26,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                         <constraints>
                             <constraint firstItem="yzt-Cv-ijj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cYJ-xd-EFb"/>
                             <constraint firstItem="yzt-Cv-ijj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="m8q-In-raj"/>
@@ -39,9 +39,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.up.bin.fill" catalog="system" width="128" height="92"/>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
